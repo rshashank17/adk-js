@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-const CONSTANT_VALUES = require('./constant');
+const CONSTANT_VALUES = require('./constant.cjs');
 
 /**
  * Invoked from csat_adkjs.yml file to post survey link
