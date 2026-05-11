@@ -27,9 +27,7 @@ module.exports = async ({ github, context }) => {
             label.name.includes(CONSTANT_VALUES.GLOBALS.LABELS.QUESTION) ||
             label.name.includes(CONSTANT_VALUES.GLOBALS.LABELS.JAVASCRIPT) ||
             label.name.includes(CONSTANT_VALUES.GLOBALS.LABELS.STATUS_IN_PROGRESS) ||
-            label.name.includes(CONSTANT_VALUES.GLOBALS.LABELS.STATUS_NEEDS_INFO) ||
-            label.name.includes(CONSTANT_VALUES.GLOBALS.LABELS.NEEDS_REVIEW) ||
-            label.name.includes(CONSTANT_VALUES.GLOBALS.LABELS.REQUEST_CLARIFICATION)) {
+            label.name.includes(CONSTANT_VALUES.GLOBALS.LABELS.NEEDS_REVIEW)) {
 
             console.log(`label-${label.name}, posting CSAT survey for issue =${issue}`);
 
