@@ -14,9 +14,7 @@ let CONSTANT_VALUES = {
       QUESTION: 'question',
       JAVASCRIPT: 'javascript',
       STATUS_IN_PROGRESS: 'status/in-progress',
-      STATUS_NEEDS_INFO: 'status/needs-info',
-      NEEDS_REVIEW: 'needs review',
-      REQUEST_CLARIFICATION: 'request clarification'
+      NEEDS_REVIEW: 'needs review'
     },
     STATE: { CLOSED: 'closed' },
   },
